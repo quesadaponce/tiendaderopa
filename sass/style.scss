@@ -1,0 +1,600 @@
+@import "_variables.scss";
+
+.img-fliud {
+    height: auto;
+    max-width: 100%; }
+
+.alinearI{
+
+    margin-left: 80%;
+    margin-bottom: 2%;
+    height: auto;
+    max-width: 100%;
+  
+  }
+  
+  #carrito2{
+    margin-left: 10%;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  #usuario2{
+    height: auto;
+    max-width: 100%;
+  }
+
+  nav {
+    font-family:  'Bebas Neue';
+    letter-spacing: 2px;
+  }
+
+  
+  #logoNegro {
+    margin-top: 2%;
+  
+}
+
+  h2{
+    font-size: 7vw;
+    font-family: $font_principal;
+  }
+  .carouselTexto{
+    font-family: $font_principal;
+    letter-spacing: 0.1vw;
+    font-size: 15vw;
+  }
+  
+  p {
+    text-align: center;
+    font-family: $font_principal ; }
+
+
+/* FOOTER */
+
+.padre-flex {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2vw;
+    justify-content: space-between;
+    margin: 3%; }
+  
+  .fondo {
+    background-color: black;
+    padding: 1%;
+    text-align: center;
+   }
+  
+    .fondo {
+      background-color: orange;
+      margin-top: 2%;
+    }
+  
+  
+  .instaFace {
+    align-items: center; }
+  
+  /*mi cuenta*/
+
+  #contenedorMicuenta{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 450px; 
+    grid-template-areas: "form" "form";
+  }
+
+
+  .formulario {
+    font-family: $font_principal;
+    font-size: 3vw;
+    letter-spacing: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%; }
+  
+  .formCompleto {
+    font-family: $font_principal;
+    font-size: 1vw;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  #colorBoton{
+    background-color: black;
+  }
+
+
+
+/*como comprar*/
+
+.comoComprar {
+    font-family: $font_principal;
+    text-align: center;
+    margin: 5%;
+    font-size: 4vw; }
+  
+  #usuarioComprar {
+    align-items: center;
+    margin-top: 35%;
+    margin-left: 13%; }
+  
+  #carritoComprar {
+    align-items: center;
+    margin-top: 50%;
+    margin-left: 15%; 
+  }
+
+  ol{
+    letter-spacing: 1px;
+    font-size: 1.2vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(245, 245, 88);
+    border-radius: 10px;
+  }
+  
+
+
+  /*imagen del medio*/
+  .imagen_fondo{
+    margin-top: 1%;
+    background-image: url(../IMAGENES/margarita5.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    max-width: 100%;
+    height: 450px
+  }
+  
+  .imagenFrase{
+    
+    margin-left: 25%;
+    padding-top: 10%;
+    max-width: 100%;
+    height: auto;
+  }
+  .texto_fijo{
+    font-size: 2vw;
+    font-family: 'Times New Roman', serif;
+    color: beige;  
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 7em;
+  
+  }
+  
+  /*grilla2*/
+  
+  #segundaGrilla{
+    margin-top: 1%;
+    padding-left: 7%;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 450px; 
+    grid-template-areas: "foto1" "foto2" "foto3";
+
+  }
+  
+  
+  #grillaTres{
+    grid-area: "foto";
+  }
+  
+
+  #grillaCuatro{
+ 
+    grid-area: "foto2";
+  
+  }
+
+  #grillaCuatrog{
+ 
+    grid-area: "foto3";
+  
+  }
+
+  .productoInicio{
+    font-family: $font_principal;
+    font-size: 2vw;
+    padding-left: 30%;
+  }
+
+ 
+  
+  .textoGrilla{
+    align-items: center;
+    margin-top: 15%;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vw
+
+  }
+  .textoGrillauno{
+    font-family: 'STIX Two Text', serif;
+    font-size: 1.3vw;
+  }
+
+  #logoSustentable{
+    padding-left: 40%;
+    padding-top: 10%;    
+  }
+  
+  /*imagen del medio2*/
+  .imagendos_fondo{
+    background-image:url(../IMAGENES/playa.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    max-width: 100%;
+    height: 450px
+  }
+  
+ 
+
+  #cuadroModa{
+    margin-left: 43%;
+    margin-top: 10%;
+
+  }
+  
+  /*terceragrilla*/
+  #terceraGrilla{
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    grid-template-rows: 400px;
+    grid-template-areas: "foto1" "foto3" "foto2";
+  }
+  
+  
+  #grillaCinco{
+    background-color:white;
+    grid-area: "foto1";
+  
+  }
+  
+
+
+  #grillaSeis{
+    grid-area: "foto3";
+    
+  }
+
+  #grillaSiete{
+    grid-area: "foto2";
+  }
+
+
+
+/* contactos */
+
+
+#contactoGrilla{
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 45vw;
+    grid-template-areas: "foto" "texto";
+  }
+  
+  #primeraGrillac{
+    grid-area: "foto";
+
+  
+  }
+  
+  #segundaGrillac{
+ 
+    grid-area: "texto";
+    background: black;
+    border-radius: 10px;
+
+  }
+
+.formContacto {
+    font-family: $font_principal;
+    color: white;
+    font-size: 1vw;
+    padding-top: 7%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+  }
+
+.tituloContacto{
+  font-size: 2vw;
+  text-align: center;
+
+}
+
+#boton_enviar{
+background: white;
+color: black;
+
+}
+
+
+/*PRODUCTOS 2*/
+
+.contenedorProductos{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.descripcionP {
+
+  h4{
+  font-family: $font_principal;
+  font-size: 1.5vw;
+  letter-spacing: 0.01vw;}
+
+  .precioProducto{
+    font-family: $font_principal;
+    font-size: 1vw;
+  }
+
+}
+
+/* POLITICA DE CAMBIOS*/
+
+.tituloProd{
+    margin-top: 5%;
+    font-family: $font_principal;
+    letter-spacing: 0.4vw;
+    text-align: center;
+}
+
+.cambiosParrafo{
+  margin-top: 5%;
+  font-family: $font_principal;
+  letter-spacing: 0.1vw;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.tablaPolitica{
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.politicadeCambios{
+  font-family: $font_principal;
+  margin-top: 3%;
+}
+
+/*TABLA DE TALLES*/
+
+
+
+/*MEDIA QUERY*/
+@media only screen and (max-width: 1200px){
+
+ /*terceragrilla*/
+ #terceraGrilla{
+  margin-top: 1%;
+  display: grid;
+  grid-template-columns: 35% 30% 35%;
+  grid-template-rows: 325px;
+  grid-template-areas: "foto1" "foto3" "foto2";
+}
+
+
+    
+}
+
+@media only screen and (max-width: 992px){
+
+    /*terceragrilla*/
+    #terceraGrilla{
+      margin-top: 1%;
+      display: flex;
+      flex-direction: row;
+    }
+    
+
+
+  /*contacto responsive*/
+  #contactoGrilla{
+    margin-top: 5%;
+    grid-template-columns: 1fr;
+    column-gap: 0%;
+    row-gap: 100px;
+  }
+  
+  #primeraGrillac {
+    grid-area: "foto";
+  }
+  
+
+#segundaGrillac {
+  grid-area: "texto";
+  background: black;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 45px;
+}
+
+.formContacto {
+  font-family: courier new;
+  color: white;
+  font-size: 1vw;
+  padding-top: 7%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 3%;
+}
+
+.form-label{
+  font-size: 10px;
+}
+
+
+/*MI CUENTA responsive*/
+#contenedorMicuenta{
+  grid-template-columns: 1fr;
+  column-gap: 0%;
+}
+
+}
+
+
+@media only screen and (max-width: 768px){
+
+
+
+     /*terceragrilla*/
+ #terceraGrilla{
+  margin-top: 1%;
+  display:flex;
+  flex-direction: row;
+}
+
+#grillaCinco{
+  background-color:white;
+  grid-area: "foto1";
+  max-width: 50%;
+  height: auto;
+
+}
+
+
+
+#grillaSeis{
+  grid-area: "foto3";
+  max-width: 50%;
+  height: auto;
+  
+}
+
+#grillaSiete{
+  display: none;
+}
+
+
+
+  /*imagen del medio*/
+  .imagen_fondo{
+    margin-top: 1%;
+    background-image: url(../IMAGENES/margarita5.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    max-width: 100%;
+    height: 200px
+  }
+
+  .imagenFrase{
+    max-width: 35%;
+    height: auto;
+    margin-left: 35%;
+   }
+
+  .imagendos_fondo{
+    background-image:url(../IMAGENES/playa.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    max-width: 100%;
+    height: 200px
+  }
+
+  #cuadroModa{
+    max-width: 100px;
+
+  }
+
+}
+
+
+@media only screen and (max-width: 576px){
+
+  .imagen_fondo{
+    margin-top: 1%;
+    background-image: url(../IMAGENES/margarita5.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    max-width: 100%;
+    height: 80px
+  }
+
+  .imagenFrase{
+   max-width: 35%;
+   height: auto;
+   margin-left: 35%;
+  }
+
+  .imagendos_fondo{
+    background-image:url(../IMAGENES/playa.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    max-width: 100%;
+    height: 80px
+  }
+
+  #cuadroModa{
+    max-width: 45px;
+    height: auto;
+
+  }
+
+  .textoGrilla{
+    align-items: center;
+    margin-top: 15%;
+    margin-left: 45%;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vw
+
+  }
+  .textoGrillauno{
+    font-family: 'STIX Two Text', serif;
+    margin-left: 45%;
+    font-size: 1.3vw;
+    text-align: center;
+  }
+
+  #logoSustentable{
+    max-width: 70%;
+    margin-left: 20%;
+
+  }
+
+
+/*GRILLA 2 DE ABAJO*/
+
+#segundaGrilla{
+  margin-top: 1%;
+  padding-left: 7%;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 200px; 
+  grid-template-areas: "foto1" "foto2" "foto3";
+  padding: 5%;
+
+}
+
+
+
+  /*contacto responsive*/
+
+.form-label{
+  font-size: 10px;
+}
+
+/*404*/
+
+.fondoPagerror{
+  background-image: url(../IMAGENES/pagerror.png);
+  max-width: 100%;
+  height: auto;
+}
+
+}
